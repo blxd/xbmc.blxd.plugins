@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.livestreamer" name="livestreamer" version="0.1.0" provider-name="blxd">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -17,19 +16,3 @@
     <description>Plays videos from sites that are supported by livestreamer</description>
   </extension>
 </addon>
-
-<addon id="plugin.video.blxdtvcatchup" name="TV Catchup (blxd edition)" version="0.2.0" provider-name="blxd">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  </requires>
- <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Live streams from TVCatchup.com</summary>
-    <disclaimer>May not work outside the UK/Ireland</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-</addons>
